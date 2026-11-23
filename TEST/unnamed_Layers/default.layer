@@ -249,26 +249,6 @@ GenericEntity : "{3386EAA823BE462E}Prefabs/Props/Wrecks/UAZ469_wreck/UAZ469_wrec
  angles 0 -124.396 0
  scale 1.7
 }
-$grp GenericEntity : "{3533DB963FA9C81F}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_Base.et" {
- {
-  coords 4880.164 28.592 11801.357
-  angles 0 -0.636 0
-  scale 0.8
- }
- {
-  coords 4880.081 28.594 11796.421
-  scale 0.8
- }
- {
-  coords 4887.321 28.594 11818.489
-  angles 0 -89.904 0
-  scale 0.7
- }
- {
-  coords 4878.3 28.572 11800.226
-  scale 0.8
- }
-}
 $grp StaticModelEntity : "{3611961B7FB04C38}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickGate_01_small.et" {
  {
   coords 4881.94 6.581 11848.292
@@ -335,6 +315,27 @@ $grp SCR_DestructibleEntity : "{3F2E6FB8EDB0BF0F}PrefabLibrary/DefaultLibrary/Wa
  {
   coords 4873.567 1.516 11853.051
   angles 89.416 180 180
+ }
+ {
+  coords 4894.664 1.144 11835.303
+  angles 0 89.561 0
+  scale 0.8
+ }
+ {
+  coords 4886.897 1.125 11832.12
+  angles 0 -90.883 0
+  scale 0.8
+ }
+ {
+  coords 4885.456 -1.038 11817.452
+ }
+ {
+  coords 4881.479 1.744 11815.933
+  angles 89.84 142.357 51.895
+ }
+ {
+  coords 4882.234 -0.374 11815.797
+  angles 0 87.241 0
  }
 }
 SCR_DestructibleEntity : "{40EA2C27A26EF15A}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_01_Pole.et" {
@@ -591,13 +592,39 @@ $grp SCR_DestructibleEntity : "{4EF4686F9F99FE80}PrefabLibrary/DefaultLibrary/Wa
   scale 10
  }
 }
-SCR_DestructibleEntity : "{4FE3FD617F94EABC}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_01_2m.et" {
- coords 4870.978 1.798 11814.713
- angles -89.213 0 0
+$grp SCR_DestructibleEntity : "{4FE3FD617F94EABC}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_01_2m.et" {
+ {
+  coords 4870.978 1.798 11814.713
+  angles -89.213 0 0
+ }
+ {
+  coords 4899.302 1.213 11805.462
+ }
+ {
+  coords 4898.454 1.215 11805.486
+ }
+ {
+  coords 4898.762 1.409 11813.038
+ }
+ {
+  coords 4899.532 1.29 11813.07
+ }
+ {
+  coords 4877.273 1.805 11799.105
+  angles -88.365 0 0
+ }
 }
-GenericEntity : "{70A8F4FD7BA0FE84}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_20ft_blue_rusty.et" {
- coords 4890.055 28.594 11832.566
- angles 0 -86.865 0
+$grp SCR_DestructibleEntity : "{70BB945FA2DB6CAC}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_01_4m_Corner.et" {
+ {
+  coords 4898.265 1.159 11829.636
+  angles 0 -90.248 0
+  scale 0.8
+ }
+ {
+  coords 4898.383 1.077 11821.804
+  angles 0 -90.213 0
+  scale 0.8
+ }
 }
 $grp SCR_DestructibleEntity : "{7510DFAB3D5B847B}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWallOld_01_8m_A.et" {
  {
@@ -607,18 +634,6 @@ $grp SCR_DestructibleEntity : "{7510DFAB3D5B847B}PrefabLibrary/DefaultLibrary/Wa
   coords 4906.95 6.665 11832.941
   angles 0 -89.884 0
   scale 2
- }
-}
-$grp GenericEntity : "{887780D497AADE00}Prefabs/Props/Industrial/CargoContainers/CargoContainer_01/CargoContainer_01_40ft_Base.et" {
- {
-  coords 4880.467 28.593 11809.86
-  angles 0 0.845 0
- }
- {
-  coords 4900.245 28.594 11808.604
- }
- {
-  coords 4900.216 28.593 11824.538
  }
 }
 $grp SCR_DestructibleBuildingEntity : "{94929D442F9640BA}Prefabs/Structures/Industrial/Houses/FactoryHallWIP_01/FactoryHallWIP_01_wall_windows.et" {
@@ -744,10 +759,55 @@ $grp SCR_DestructibleEntity : "{DB8C05ED446B6566}Prefabs/Structures/Walls/Brick/
   scale 2
  }
 }
-SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_01_8m.et" {
- coords 4869.91 4.426 11795.98
- angles 0 -87.573 0
- scale 1.84
+$grp SCR_DestructibleEntity : "{DEB54A0BC9F81469}PrefabLibrary/DefaultLibrary/Walls/Brick/BrickWall_01_8m.et" {
+ {
+  coords 4869.91 4.426 11795.98
+  angles 0 -87.573 0
+  scale 1.84
+ }
+ {
+  coords 4901.439 1.423 11805.208
+  angles 0 -89.932 0
+ }
+ {
+  coords 4898.542 1.396 11805.19
+  angles 0.97 -89.55 0.048
+ }
+ {
+  coords 4900.331 3.332 11805.237
+  angles -89.763 12.318 -101.025
+ }
+ {
+  coords 4898.197 1.313 11821.745
+  angles 0 -89.918 0
+ }
+ {
+  coords 4901.309 1.272 11821.724
+  angles 0 -88.971 0
+ }
+ {
+  coords 4900.122 2.938 11821.726
+  angles -89.73 103.375 166.133
+ }
+ {
+  coords 4886.646 1.265 11832.115
+ }
+ {
+  coords 4881.303 1.691 11812.3
+  angles 89.86 -71.083 -160.996
+ }
+ {
+  coords 4881.295 1.635 11804.344
+  angles 89.221 -90.053 -180
+ }
+ {
+  coords 4882.758 -0.36 11804.34
+  angles 0 89.752 0
+ }
+ {
+  coords 4882.385 -0.37 11812.265
+  angles 0 87.465 0
+ }
 }
 $grp StaticModelEntity : "{F5589597452FE918}PrefabLibrary/DefaultLibrary/Infrastructure/Stairs/ConcreteStairs_02_Narrow.et" {
  {
